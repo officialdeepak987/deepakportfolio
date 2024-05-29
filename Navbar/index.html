@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+
+    <style>
+
+        body{
+            background-color: #000;
+        }
+
+    .nav{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .logo{
+        font-size: 30px;
+        font-weight: 600;
+        color: #fff;
+
+    }
+    .logo span{
+        color: #f1e212;
+    }
+
+    .navlink{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding-right: 20px;
+        font-size: 25px;
+
+    }
+    .navlink a{
+        text-decoration: none;
+        color: #fff;
+
+    }
+    .navlink li{
+        list-style: none;
+        
+    }
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+
+        <div class="logo">
+            Deepak <span>Singh</span>
+        </div>
+        <ul class="navlink">
+            <a href="#">
+                <li>Home</li>
+            </a>
+            <a href="#">
+                <li>About</li>
+            </a>
+            <a href="#">
+                <li>Contact Us</li>
+            </a>
+            <a href="#">
+                <li> Blog</li>
+            </a>
+        </ul>
+
+    </div>
+    
+</body>
+</html>
